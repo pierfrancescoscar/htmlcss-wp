@@ -1,0 +1,110 @@
+/*General Settings*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+body {
+    font-weight: 300;
+    color: #878787;
+}
+
+header {
+    /* background-color: #E57AE6; remove after done */
+
+}
+
+.hero {
+    background-color: #E1D67A;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    background: #ABCFE8;
+}
+
+footer {
+    float: left;
+    background: #8901FF;
+    width: 100%;
+}
+
+/*Placeholder Debug Boxes*/
+
+.debug-box {
+    height: 50px;
+    /* background: rgba(0,0,0,0.2); to remove it */
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+/*Clearfix*/
+
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+/*Padding and Margin Utilities*/
+
+.px-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+
+/*Main Content Styling*/
+
+.blue-container {
+    float: left;
+    width: 100%;
+    background: #0286FD;
+    margin-bottom: 10px;
+}
+
+.page-title {
+    background: #ABCFE8;
+}
+
+.central-topic {
+    float: left;
+    width: 50%;
+    background: #ABCFE8;
+    padding: 0 15px;
+    background-clip: content-box;
+}
+
+
+header img {
+    width: 150px;
+}
+
+header ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+

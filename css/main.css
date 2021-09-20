@@ -148,6 +148,10 @@ header ul li {
     font-size: 15px;
 }
 
+li:hover {
+    color: black;
+}
+
 /* Page Title Styling  */
 
 .page-title > h2 {

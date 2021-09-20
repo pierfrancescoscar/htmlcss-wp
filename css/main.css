@@ -23,7 +23,15 @@ header {
 }
 
 .hero {
-    background-color: #E1D67A;
+    position: relative;
+    border-radius: 10px;
+    filter: grayscale(30%);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-image: url(../img/banner.jpg);
+    
+
 }
 
 aside {
@@ -79,13 +87,9 @@ footer {
 .blue-container {
     float: left;
     width: 100%;
-    background: #0286FD;
     margin-bottom: 10px;
 }
 
-.page-title {
-    background: #ABCFE8;
-}
 
 .central-topic {
     float: left;
@@ -106,5 +110,35 @@ header ul li {
     padding-right: 10px;
     text-transform: uppercase;
     font-size: 14px;
+}
+
+.hero > h2 {
+    position: absolute;
+    width: 50%;
+    bottom: 150px;
+    left: 45px;
+    color: white;
+    font-weight: 300;
+}
+.hero > h3 {
+    position: absolute;
+    width: 50%;
+    bottom: 90px;
+    left: 45px;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.page-title > h2 {
+
+    font-size: 30px;
+    color: black;
+
+}
+
+.page-title .subtitle {
+    display: block;
+    font-size: 15px;
 }
 

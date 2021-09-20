@@ -41,7 +41,6 @@ aside {
 
 footer {
     float: left;
-    background: #8901FF;
     width: 100%;
 }
 
@@ -152,7 +151,9 @@ header ul li {
 aside img {
     width: 220px;
     height: 200px;
+    object-fit: cover;
 }
+
 
 aside h4 {
     color: black;
@@ -162,7 +163,33 @@ aside h4 {
 /*Central Topic Styling*/
 
 .central-topic img {
-    width: 100%;
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+    
 }
+
+.central-topic h4 {
+    color: black;
+    font-weight: 400;
+}
+
+/* Footer Styling */
+
+.footer-txt {
+    font-size: 12px;
+    text-align: center;
+    color: black;
+
+}
+
+.footer-txt .heart {
+    color: red;
+    font-size: 16px;
+}
+
+
+
+
 
 

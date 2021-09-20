@@ -36,8 +36,7 @@ header {
 
 aside {
     float: left;
-    width: 25%;
-    background: #ABCFE8;
+    width: 20%;
 }
 
 footer {
@@ -81,6 +80,10 @@ footer {
     margin-top: 30px;
 }
 
+.mt-10 {
+    margin-top: 10px;
+}
+
 
 /*Main Content Styling*/
 
@@ -93,8 +96,8 @@ footer {
 
 .central-topic {
     float: left;
-    width: 50%;
-    background: #ABCFE8;
+    width: 60%;
+    
     padding: 0 15px;
     background-clip: content-box;
 }
@@ -130,6 +133,8 @@ header ul li {
     font-size: 15px;
 }
 
+/* Page Title Styling  */
+
 .page-title > h2 {
 
     font-size: 30px;
@@ -141,4 +146,23 @@ header ul li {
     display: block;
     font-size: 15px;
 }
+
+/* Sidebars Styling */
+
+aside img {
+    width: 220px;
+    height: 200px;
+}
+
+aside h4 {
+    color: black;
+    font-weight: 400;
+}
+
+/*Central Topic Styling*/
+
+.central-topic img {
+    width: 100%;
+}
+
 

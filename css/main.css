@@ -10,17 +10,16 @@
 .container {
     width: 80%;
     margin: 30px auto;
+    
 }
 
 body {
     font-weight: 300;
     color: #878787;
+    
 }
 
-header {
-    /* background-color: #E57AE6; remove after done */
-
-}
+/* Hero Styling */
 
 .hero {
     position: relative;
@@ -34,9 +33,25 @@ header {
 
 }
 
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 10px;
+
+}
+
+/* Simple Tags Styling */
+
 aside {
     float: left;
     width: 20%;
+    position: relative;
+    
 }
 
 footer {
@@ -86,7 +101,7 @@ footer {
 
 /*Main Content Styling*/
 
-.blue-container {
+.main-content-container {
     float: left;
     width: 100%;
     margin-bottom: 10px;
@@ -101,6 +116,7 @@ footer {
     background-clip: content-box;
 }
 
+/* Header and Menu Styling */
 
 header img {
     width: 150px;
@@ -152,12 +168,33 @@ aside img {
     width: 220px;
     height: 200px;
     object-fit: cover;
+    
 }
-
 
 aside h4 {
     color: black;
     font-weight: 400;
+}
+
+/* Black Overlay over Images */
+
+.black-overlay {
+    position: relative;
+    
+
+}
+
+.black-overlay::before {
+
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 10px;
+
 }
 
 /*Central Topic Styling*/
@@ -166,6 +203,7 @@ aside h4 {
     width: 600px;
     height: 200px;
     object-fit: cover;
+    
     
 }
 
